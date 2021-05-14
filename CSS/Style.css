@@ -1,0 +1,153 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+/*line 13*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+/*line 14*/
+.navbar
+{
+    background-image: linear-gradient(to right,#3729bb, #8f1cc9);
+    padding: 0 !important;
+}
+/*line 15*/
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 20px;
+}
+/*line 17*/
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a 
+{
+    color:#fff !important;
+    font-weight: 600 ;
+}
+
+#banner
+{
+    background-image: linear-gradient(to right,#3729bb, #8f1cc9);
+    color: #fff;
+    padding-top: 5% ;
+}
+/*line 40*/
+.promo-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+/*line 44*/
+
+.bottom-img
+{
+    width: 100%;
+}
+/*line 52*/
+#about-me
+{
+    padding: 80px 0;
+
+}
+/*line 55*/
+.about-me-img
+{
+    width: 100px;
+    margin-top: 20px;
+}
+/*line 59*/
+.about-me h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title::before
+{
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after
+{
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+#proyects
+{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+.proyects ul li
+{
+    margin: 10px 0;
+}
+.proyects ul
+{
+    margin: 20px;
+}
+#social-media
+{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#social-media p
+{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.icons img
+{
+    width: 40px;
+    transition: 0.5s;
+}
+.icons a:hover img
+{
+    transform: translateY(-10px);
+
+}
+#footer
+{
+    background-image: linear-gradient(to right,#3729bb, #8f1cc9);
+    color: #fff;
+}
+.footer-img
+{
+    width: 100%;
+}
+.footer-box
+{
+    padding: 20px;
+}
+.footer-box img
+{
+    width: 120px;
+    margin-bottom: 20px;
+}
